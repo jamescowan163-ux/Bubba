@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bubba the Bear 🐻 | Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- Navigation bar -->
+    <div class="nav">
+      <div class="navbar">
+
+        <div class="brand">
+          <div class="avatar">
+            <img src="bubba-profile.jpg" alt="Bubba the Bear profile picture">
+          </div>
+          <div>
+            <div style="font-size:12px; color: rgba(246,247,251,0.7); letter-spacing:.12em; text-transform:uppercase;">
+              Official Bear Site
+            </div>
+            <strong>Bubba</strong>
+          </div>
+        </div>
+
+        <div class="navlinks">
+          <a class="active" href="index.html">Home</a>
+          <a href="interests.html">Interests</a>
+          <a href="cinematography.html">Cinematography</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="card hero">
+      <h1>Bubba the Bear 🐻</h1>
+      <p>
+        Welcome to Bubba’s cozy corner of the internet. He’s a professional bear,
+        doomscroller, and future doctor/movie star.
+      </p>
+      <div class="badges">
+        <span class="badge">📱 Doomscrolling</span>
+        <span class="badge">📚 Reading</span>
+        <span class="badge">🎓 Doctor arc</span>
+        <span class="badge">🎬 Movie star energy</span>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <div class="grid">
+      <section class="card">
+        <h2>About Bubba</h2>
+        <p>
+          Bubba is a big-hearted bear with a strong sense of drama and an even stronger sense
+          of self-preservation (especially around DANIEL).
+        </p>
+        <h2 style="margin-top:14px;">Bear Motto</h2>
+        <p>“Stay cozy. Stay hydrated. Stay away from DANIEL.”</p>
+      </section>
+
+      <aside class="card">
+        <h2>Quick Facts</h2>
+        <ul>
+          <li>Favorite activity: Doomscrolling</li>
+          <li>Favorite hobby: Reading</li>
+          <li>Career goals: Doctor + Movie Star</li>
+          <li>Main rule: Avoid DANIEL</li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="footer">© <span id="year"></span> Bubba the Bear</div>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
